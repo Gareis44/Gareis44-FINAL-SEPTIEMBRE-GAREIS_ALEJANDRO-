@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FINAL_SEPTIEMBRE_GAREIS_ALEJANDRO
+{
+    internal class HistorialMedico
+    {
+        public int Id { get; set; }
+        public string CodigoIntervencion { get; set; }
+        public DateTime FechaIntervencion { get; set; }
+        public string Descripcion { get; set; }
+    }
+}
