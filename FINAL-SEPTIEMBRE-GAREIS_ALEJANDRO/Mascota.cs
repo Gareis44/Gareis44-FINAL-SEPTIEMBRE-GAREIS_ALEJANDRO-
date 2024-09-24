@@ -15,6 +15,7 @@ namespace FINAL_SEPTIEMBRE_GAREIS_ALEJANDRO
         public int Edad { get; set; }
         public Propietario Propietario { get; set; }
         public List<HistorialMedico> HistorialMedico { get; set; } = new List<HistorialMedico>();
+        //CORRECCIÓN: USAS DOS PROPIEDADES PARA LO MISMO, PODES USAR SOLO LA FECHA DE ELIMINACION.
         public bool EstaEliminado { get; set; } = false;
         public string MotivoEliminacion { get; set; }
         public DateTime? FechaEliminacion { get; set; }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace FINAL_SEPTIEMBRE_GAREIS_ALEJANDRO
 {
+    //CORRECCION: MAL DIVIDIDO LOS PROYECTOS.
     internal class MascotaRepositorio
     {
         private List<Mascota> mascotas = new List<Mascota>();
